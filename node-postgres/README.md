@@ -1,4 +1,12 @@
-# Node (Express) + Postgres
+# Docker Stack Example: Node + Postgres
+
+**Features**
+
+- **Node/Express backend container:**
+  - Sync local changes and autoreload using nodemon
+  - Node modules are persisted as docker volume for fast reloads and to avoid interop issues with host
+- **Postgress container:**
+  - Optimized for fast bootup
 
 ## Running Locally for Development
 
@@ -6,6 +14,4 @@ Launch stack with:
 
 	docker-compose up
 
-Node/express backend will be available at http://localhost:3000/
-
-Edit in your favourite editor. Backend changes are automatically reloaded using nodemon.
+Point your browser to http://localhost:3000/
