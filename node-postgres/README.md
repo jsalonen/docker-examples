@@ -1,4 +1,4 @@
-# Docker Stack Example: Node (Express) + Postgres
+# Node (Express) + Postgres
 
 ## Running Locally for Development
 
