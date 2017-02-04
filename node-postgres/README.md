@@ -3,7 +3,7 @@
 **Features**
 
 - **Node/Express backend container**
-  - Syncs local changes and autoreload using nodemon
+  - Syncs local changes and autoreloads server using nodemon
   - Persists node modules in a docker volume for fast reloads and to avoid interop issues with host
 - **Postgres container**
   - Optimized for fast bootup
