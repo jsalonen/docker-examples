@@ -6,7 +6,7 @@
   - Syncs local changes and autoreloads server using nodemon
   - Persists node modules in a docker volume for fast reloads and to avoid interop issues with host
 - **Postgres database**
-  - Optimized for fast bootup
+  - Fast bootup settings for development convenience
 
 ## Running Locally for Development
 
